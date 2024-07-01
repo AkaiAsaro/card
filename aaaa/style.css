@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+#sonny {
+    width: 10rem;
+    height: 9rem;
+    border-radius: 20px;
+    transform: scale(1.2); 
+    transition: transform 0.3s ease;
+}
+
+#sonny:active {
+    transform: scale(1); 
+}
+
+#imagem {
+    width: 22rem;
+    height: 14rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 1px 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1rem;
+}
+.texto{
+    width: 20rem;
+    display: none;
+}
+#bota{
+    
+}
